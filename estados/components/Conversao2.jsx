@@ -15,13 +15,13 @@ function Conversao2() {
         <h2>km para milhas para léguas</h2>
         <button onClick={converterKmParaMilhasParaLeguas}>Converter</button>
         <p>
-            Valor original: {km}km
+            Km: {km}km
         </p>
         <p>
-            Valor convertido: {milhas}mi
+            Milhas: {milhas}mi
         </p>
         <p>
-            Valor convertido: {leguas}leg
+            Léguas: {leguas}leg
         </p>
 
     </div>
