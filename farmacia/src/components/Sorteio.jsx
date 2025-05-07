@@ -6,12 +6,18 @@ function Sorteio() {
     const[inputNome, setInputNome] = useState('')
     const[nomes, setNomes] = useState ([])
 
-    // useEffect{() => console.log(nomes), [nomes]}
+    useEffect(() => console.log(nomes),[nomes])
 
 function cadastrarNome(){
     setNomes([inputNome, ...nomes])
     // console.log(nomes);
     
+}
+
+function sortearCliente(){
+  let i = Math.floor(Math.random() * nomes.length)
+
+  alert('Cliente sorteado: ' + nomes[i])
 }
 
   return (
